@@ -1,11 +1,10 @@
 <?php
 
 
-class NewClass {
+class ParentClass {
 
 //properties andd methods goes here
 
-
+protected $name = 'habla';
 
 }
-
