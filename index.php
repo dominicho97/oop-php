@@ -15,7 +15,8 @@ include 'includes/newclass.inc.php';
 </head>
 <body>
 <?php
-$users = new Users;
+$first = 'John';
+$users = new Users($first);
 echo $users->first;
 
 

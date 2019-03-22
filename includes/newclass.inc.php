@@ -13,8 +13,8 @@ public $eyeColor = "Brown";
 
 
 
-public function __construct(){
-
+public function __construct($first,$last ,$hairColor,$eyeColor){
+  $this->first = $first;
 }
 
 public function __destruct(){
