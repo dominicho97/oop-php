@@ -6,10 +6,10 @@ class Users {
 //properties andd methods goes here
 
 
-public $first = "Dominic";
-public $last = "Ho";
-public $hairColor = "Black";
-public $eyeColor = "Brown";
+public $first ;
+public $last ;
+public $hairColor ;
+public $eyeColor ;
 
 
 

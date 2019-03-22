@@ -17,7 +17,7 @@ include 'includes/newclass.inc.php';
 <?php
 
 $users = new Users('John','Doe', 'Blond', 'Brown');
-echo $users->first;
+echo $users->fullName();
 
 
 ?>
