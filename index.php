@@ -21,7 +21,6 @@ include 'includes/newclass.inc.php';
 <?php
 
 $object = new NewClass;
- //$object->setNewProperty("This is the new data");
  echo $object->getProperty();
 ?>
   
