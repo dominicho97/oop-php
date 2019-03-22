@@ -2,10 +2,6 @@
 
 include 'includes/newclass.inc.php';
 
-
-
-
-
 ?>
 
 
@@ -19,9 +15,10 @@ include 'includes/newclass.inc.php';
 </head>
 <body>
 <?php
+$users = new Users;
+echo $users->first;
 
-$object = new NewClass;
- echo $object->getProperty();
+
 ?>
   
 </body>
