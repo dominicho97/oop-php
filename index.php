@@ -20,8 +20,9 @@ include 'includes/newclass.inc.php';
 <body>
 <?php
 
-
-
+$object = new NewClass;
+ //$object->setNewProperty("This is the new data");
+ echo $object->getProperty();
 ?>
   
 </body>
